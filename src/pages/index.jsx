@@ -66,5 +66,8 @@ orderForms.forEach(form => {
     const data = await response.json();
     console.log(data);
 
+    // refresh page
+    window.location.reload();
+
   });
 });
